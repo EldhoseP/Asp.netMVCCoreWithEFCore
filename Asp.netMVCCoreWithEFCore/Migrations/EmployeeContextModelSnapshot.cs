@@ -28,6 +28,7 @@ namespace Asp.netMVCCoreWithEFCore.Migrations
                         .HasColumnType("nvarchar(150)");
 
                     b.Property<string>("EmpCode")
+                        .IsRequired()
                         .HasColumnType("nvarchar(20)");
 
                     b.Property<string>("FullName")
@@ -35,8 +36,6 @@ namespace Asp.netMVCCoreWithEFCore.Migrations
                         .HasColumnType("nvarchar(350)");
 
                     b.Property<string>("OfficeLocations")
-                        .IsRequired()
-                        .HasConversion(new ValueConverter<string, string>(v => default(string), v => default(string), new ConverterMappingHints(size: 64)))
                         .HasColumnType("nvarchar(200)");
 
                     b.HasKey("EmployeeId");

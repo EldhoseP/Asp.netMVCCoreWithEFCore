@@ -42,7 +42,6 @@ D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\bin\Debug\netcoreapp2.1\
 D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\bin\Debug\netcoreapp2.1\Asp.netMVCCoreWithEFCore.pdb
 D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\bin\Debug\netcoreapp2.1\Asp.netMVCCoreWithEFCore.Views.dll
 D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\bin\Debug\netcoreapp2.1\Asp.netMVCCoreWithEFCore.Views.pdb
-D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\obj\Debug\netcoreapp2.1\Asp.netMVCCoreWithEFCore.csprojAssemblyReference.cache
 D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\obj\Debug\netcoreapp2.1\Asp.netMVCCoreWithEFCore.csproj.CoreCompileInputs.cache
 D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\obj\Debug\netcoreapp2.1\Asp.netMVCCoreWithEFCore.RazorAssemblyInfo.cache
 D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\obj\Debug\netcoreapp2.1\Asp.netMVCCoreWithEFCore.RazorAssemblyInfo.cs
@@ -72,3 +71,4 @@ D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\obj\Debug\netcoreapp2.1\
 D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\obj\Debug\netcoreapp2.1\Asp.netMVCCoreWithEFCore.dll
 D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\obj\Debug\netcoreapp2.1\Asp.netMVCCoreWithEFCore.pdb
 D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\obj\Debug\netcoreapp2.1\Asp.netMVCCoreWithEFCore.csproj.CopyComplete
+D:\RD\Asp.netMVCCoreWithEFCore\Asp.netMVCCoreWithEFCore\obj\Debug\netcoreapp2.1\Asp.netMVCCoreWithEFCore.csprojAssemblyReference.cache
