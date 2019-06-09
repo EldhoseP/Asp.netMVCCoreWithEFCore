@@ -1,0 +1,7 @@
+Project Configuration 
+---------------------------
+Run below commands in Package Manager Console 
+
+1.Add-Migration "IntailCreation"
+
+2.update-Database
