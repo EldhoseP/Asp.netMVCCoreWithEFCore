@@ -4448,3 +4448,182 @@ FROM [Employees] AS [e]" (0723d8ff)
 2019-06-09T15:29:13.4825896+05:30 0HLNCO4CRVHM4:00000005 [INF] Request finished in 57.6907ms 200 text/html; charset=utf-8 (791a596a)
 2019-06-09T15:29:13.5287566+05:30 0HLNCO4CRVHM3:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:61543/dist/css/skins/blue.css   (ca22a1cb)
 2019-06-09T15:29:13.5320827+05:30 0HLNCO4CRVHM3:00000005 [INF] Request finished in 2.9752ms 404  (791a596a)
+2019-06-09T15:35:35.2308565+05:30 0HLNCO81SQK5E:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:61543/   (ca22a1cb)
+2019-06-09T15:35:35.2308517+05:30 0HLNCO81SQK5F:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:61543/  0 (ca22a1cb)
+2019-06-09T15:35:35.2936519+05:30 0HLNCO81SQK5F:00000001 [INF] Request finished in 68.9296ms 200  (791a596a)
+2019-06-09T15:35:35.6339020+05:30 0HLNCO81SQK5E:00000001 [INF] Route matched with "{action = \"Index\", controller = \"Employee\"}". Executing action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" (a44c0341)
+2019-06-09T15:35:35.8599695+05:30 0HLNCO81SQK5E:00000001 [INF] Executing action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" - Validation state: Valid (dad538d7)
+2019-06-09T15:35:36.3475644+05:30 0HLNCO81SQK5E:00000001 [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"EmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-06-09T15:35:36.7401681+05:30 0HLNCO81SQK5E:00000001 [INF] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmployeeId], [e].[Designation], [e].[EmpCode], [e].[FullName], [e].[OfficeLocations]
+FROM [Employees] AS [e]" (0723d8ff)
+2019-06-09T15:35:36.8614343+05:30 0HLNCO81SQK5E:00000001 [INF] Executed action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 995.0072ms. (50a9e262)
+2019-06-09T15:35:36.8908212+05:30 0HLNCO81SQK5E:00000001 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-06-09T15:35:37.0211060+05:30 0HLNCO81SQK5E:00000001 [INF] Executed ViewResult - view "Index" executed in 141.0712ms. (f66409e9)
+2019-06-09T15:35:37.0287619+05:30 0HLNCO81SQK5E:00000001 [INF] Executed action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" in 1390.7766ms (afa2e885)
+2019-06-09T15:35:37.0642756+05:30 0HLNCO81SQK5E:00000001 [INF] Request finished in 1840.3195ms 200 text/html; charset=utf-8 (791a596a)
+2019-06-09T15:35:37.3429842+05:30 0HLNCO81SQK5F:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:61543/dist/css/skins/blue.css   (ca22a1cb)
+2019-06-09T15:35:37.3513628+05:30 0HLNCO81SQK5F:00000002 [INF] Request finished in 5.9663ms 404  (791a596a)
+2019-06-09T15:35:56.1609405+05:30 0HLNCO81SQK5E:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:61543/Employee/CreateorUpdate   (ca22a1cb)
+2019-06-09T15:35:56.1917768+05:30 0HLNCO81SQK5E:00000002 [INF] Route matched with "{action = \"CreateorUpdate\", controller = \"Employee\"}". Executing action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.CreateorUpdate (Asp.netMVCCoreWithEFCore)" (a44c0341)
+2019-06-09T15:35:56.2188586+05:30 0HLNCO81SQK5E:00000002 [INF] Executing action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.CreateorUpdate (Asp.netMVCCoreWithEFCore)" with arguments (["0"]) - Validation state: Valid (4e3479ed)
+2019-06-09T15:35:56.2223242+05:30 0HLNCO81SQK5E:00000002 [INF] Log message in the CreateorUpdate(id=0) method (9270b55b)
+2019-06-09T15:35:56.2253153+05:30 0HLNCO81SQK5E:00000002 [INF] Executed action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.CreateorUpdate (Asp.netMVCCoreWithEFCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 3.5418ms. (50a9e262)
+2019-06-09T15:35:56.2377506+05:30 0HLNCO81SQK5E:00000002 [INF] Executing ViewResult, running view "CreateorUpdate". (c83d0e25)
+2019-06-09T15:35:56.3148502+05:30 0HLNCO81SQK5E:00000002 [INF] Executed ViewResult - view "CreateorUpdate" executed in 83.9415ms. (f66409e9)
+2019-06-09T15:35:56.3184715+05:30 0HLNCO81SQK5E:00000002 [INF] Executed action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.CreateorUpdate (Asp.netMVCCoreWithEFCore)" in 123.2117ms (afa2e885)
+2019-06-09T15:35:56.3222197+05:30 0HLNCO81SQK5E:00000002 [INF] Request finished in 162.0934ms 200 text/html; charset=utf-8 (791a596a)
+2019-06-09T15:35:56.3793240+05:30 0HLNCO81SQK5F:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:61543/dist/css/skins/blue.css   (ca22a1cb)
+2019-06-09T15:35:56.3834835+05:30 0HLNCO81SQK5F:00000003 [INF] Request finished in 4.6213ms 404  (791a596a)
+2019-06-09T15:36:01.6301282+05:30 0HLNCO81SQK5E:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:61543/Employee/CreateorUpdate application/x-www-form-urlencoded 285 (ca22a1cb)
+2019-06-09T15:36:01.6430559+05:30 0HLNCO81SQK5E:00000003 [INF] Route matched with "{action = \"CreateorUpdate\", controller = \"Employee\"}". Executing action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.CreateorUpdate (Asp.netMVCCoreWithEFCore)" (a44c0341)
+2019-06-09T15:36:01.6903269+05:30 0HLNCO81SQK5E:00000003 [INF] Executing action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.CreateorUpdate (Asp.netMVCCoreWithEFCore)" with arguments (["Asp.netMVCCoreWithEFCore.Models.Employee"]) - Validation state: Valid (4e3479ed)
+2019-06-09T15:36:01.6958523+05:30 0HLNCO81SQK5E:00000003 [INF] Log message in the CreateorUpdate(EmployeeId=0FullName=Eldhose Paul* EmpCodeEP001) method (f66f7bbd)
+2019-06-09T15:36:01.7022628+05:30 0HLNCO81SQK5E:00000003 [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"EmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-06-09T15:36:01.8734042+05:30 0HLNCO81SQK5E:00000003 [INF] Executed DbCommand ("21"ms) [Parameters=["@p0='?' (Size = 150), @p1='?' (Size = 20), @p2='?' (Size = 350), @p3='?' (Size = 200)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Employees] ([Designation], [EmpCode], [FullName], [OfficeLocations])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [EmployeeId]
+FROM [Employees]
+WHERE @@ROWCOUNT = 1 AND [EmployeeId] = scope_identity();" (0723d8ff)
+2019-06-09T15:36:01.9397778+05:30 0HLNCO81SQK5E:00000003 [INF] Log message end in CreateorUpdate() (013a38b0)
+2019-06-09T15:36:01.9431078+05:30 0HLNCO81SQK5E:00000003 [INF] Executed action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.CreateorUpdate (Asp.netMVCCoreWithEFCore)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 249.7499ms. (50a9e262)
+2019-06-09T15:36:01.9467584+05:30 0HLNCO81SQK5E:00000003 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2019-06-09T15:36:01.9499245+05:30 0HLNCO81SQK5E:00000003 [INF] Executed action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.CreateorUpdate (Asp.netMVCCoreWithEFCore)" in 303.881ms (afa2e885)
+2019-06-09T15:36:01.9533229+05:30 0HLNCO81SQK5E:00000003 [INF] Request finished in 323.3997ms 302  (791a596a)
+2019-06-09T15:36:01.9600053+05:30 0HLNCO81SQK5F:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:61543/   (ca22a1cb)
+2019-06-09T15:36:01.9633244+05:30 0HLNCO81SQK5F:00000004 [INF] Route matched with "{action = \"Index\", controller = \"Employee\"}". Executing action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" (a44c0341)
+2019-06-09T15:36:01.9664099+05:30 0HLNCO81SQK5F:00000004 [INF] Executing action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" - Validation state: Valid (dad538d7)
+2019-06-09T15:36:01.9699490+05:30 0HLNCO81SQK5F:00000004 [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"EmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-06-09T15:36:01.9827664+05:30 0HLNCO81SQK5F:00000004 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmployeeId], [e].[Designation], [e].[EmpCode], [e].[FullName], [e].[OfficeLocations]
+FROM [Employees] AS [e]" (0723d8ff)
+2019-06-09T15:36:01.9865343+05:30 0HLNCO81SQK5F:00000004 [INF] Executed action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 17.0641ms. (50a9e262)
+2019-06-09T15:36:01.9898589+05:30 0HLNCO81SQK5F:00000004 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-06-09T15:36:02.0132122+05:30 0HLNCO81SQK5F:00000004 [INF] Executed ViewResult - view "Index" executed in 20.0327ms. (f66409e9)
+2019-06-09T15:36:02.0175282+05:30 0HLNCO81SQK5F:00000004 [INF] Executed action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" in 49.9953ms (afa2e885)
+2019-06-09T15:36:02.0221534+05:30 0HLNCO81SQK5F:00000004 [INF] Request finished in 60.9683ms 200 text/html; charset=utf-8 (791a596a)
+2019-06-09T15:36:02.1081900+05:30 0HLNCO81SQK5E:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:61543/dist/css/skins/blue.css   (ca22a1cb)
+2019-06-09T15:36:02.1125633+05:30 0HLNCO81SQK5E:00000004 [INF] Request finished in 3.6837ms 404  (791a596a)
+2019-06-09T15:36:05.8597976+05:30 0HLNCO81SQK5F:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:61543/Employee/Delete/8   (ca22a1cb)
+2019-06-09T15:36:05.8704131+05:30 0HLNCO81SQK5F:00000005 [INF] Route matched with "{action = \"Delete\", controller = \"Employee\"}". Executing action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Delete (Asp.netMVCCoreWithEFCore)" (a44c0341)
+2019-06-09T15:36:05.8740687+05:30 0HLNCO81SQK5F:00000005 [INF] Executing action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Delete (Asp.netMVCCoreWithEFCore)" with arguments (["8"]) - Validation state: Valid (4e3479ed)
+2019-06-09T15:36:05.8794365+05:30 0HLNCO81SQK5F:00000005 [INF] Log message in the Delete(id=8) method (f6523a82)
+2019-06-09T15:36:05.8846028+05:30 0HLNCO81SQK5F:00000005 [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"EmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-06-09T15:36:05.9795793+05:30 0HLNCO81SQK5F:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=["@__get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[EmployeeId], [e].[Designation], [e].[EmpCode], [e].[FullName], [e].[OfficeLocations]
+FROM [Employees] AS [e]
+WHERE [e].[EmployeeId] = @__get_Item_0" (0723d8ff)
+2019-06-09T15:36:06.0708335+05:30 0HLNCO81SQK5F:00000005 [INF] Executed DbCommand ("4"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Employees]
+WHERE [EmployeeId] = @p0;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2019-06-09T15:36:06.0968311+05:30 0HLNCO81SQK5F:00000005 [INF] Executed action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Delete (Asp.netMVCCoreWithEFCore)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 215.716ms. (50a9e262)
+2019-06-09T15:36:06.1042432+05:30 0HLNCO81SQK5F:00000005 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2019-06-09T15:36:06.1119390+05:30 0HLNCO81SQK5F:00000005 [INF] Executed action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Delete (Asp.netMVCCoreWithEFCore)" in 234.1236ms (afa2e885)
+2019-06-09T15:36:06.1210130+05:30 0HLNCO81SQK5F:00000005 [INF] Request finished in 256.7657ms 302  (791a596a)
+2019-06-09T15:36:06.1413788+05:30 0HLNCO81SQK5E:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:61543/   (ca22a1cb)
+2019-06-09T15:36:06.1490525+05:30 0HLNCO81SQK5E:00000005 [INF] Route matched with "{action = \"Index\", controller = \"Employee\"}". Executing action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" (a44c0341)
+2019-06-09T15:36:06.1568278+05:30 0HLNCO81SQK5E:00000005 [INF] Executing action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" - Validation state: Valid (dad538d7)
+2019-06-09T15:36:06.1651486+05:30 0HLNCO81SQK5E:00000005 [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"EmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-06-09T15:36:06.1775350+05:30 0HLNCO81SQK5E:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmployeeId], [e].[Designation], [e].[EmpCode], [e].[FullName], [e].[OfficeLocations]
+FROM [Employees] AS [e]" (0723d8ff)
+2019-06-09T15:36:06.1857105+05:30 0HLNCO81SQK5E:00000005 [INF] Executed action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 22.2999ms. (50a9e262)
+2019-06-09T15:36:06.1940894+05:30 0HLNCO81SQK5E:00000005 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-06-09T15:36:06.2463891+05:30 0HLNCO81SQK5E:00000005 [INF] Executed ViewResult - view "Index" executed in 47.8794ms. (f66409e9)
+2019-06-09T15:36:06.2556417+05:30 0HLNCO81SQK5E:00000005 [INF] Executed action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" in 97.5709ms (afa2e885)
+2019-06-09T15:36:06.2670478+05:30 0HLNCO81SQK5E:00000005 [INF] Request finished in 121.2629ms 200 text/html; charset=utf-8 (791a596a)
+2019-06-09T15:36:06.3725434+05:30 0HLNCO81SQK5F:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:61543/dist/css/skins/blue.css   (ca22a1cb)
+2019-06-09T15:36:06.3761600+05:30 0HLNCO81SQK5F:00000006 [INF] Request finished in 3.2759ms 404  (791a596a)
+2019-06-09T15:36:08.6452468+05:30 0HLNCO81SQK5E:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:61543/Employee/Delete/13   (ca22a1cb)
+2019-06-09T15:36:08.6534212+05:30 0HLNCO81SQK5E:00000006 [INF] Route matched with "{action = \"Delete\", controller = \"Employee\"}". Executing action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Delete (Asp.netMVCCoreWithEFCore)" (a44c0341)
+2019-06-09T15:36:08.6625173+05:30 0HLNCO81SQK5E:00000006 [INF] Executing action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Delete (Asp.netMVCCoreWithEFCore)" with arguments (["13"]) - Validation state: Valid (4e3479ed)
+2019-06-09T15:36:08.6702531+05:30 0HLNCO81SQK5E:00000006 [INF] Log message in the Delete(id=13) method (fb597688)
+2019-06-09T15:36:08.6778114+05:30 0HLNCO81SQK5E:00000006 [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"EmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-06-09T15:36:08.7030989+05:30 0HLNCO81SQK5E:00000006 [INF] Executed DbCommand ("2"ms) [Parameters=["@__get_Item_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [e].[EmployeeId], [e].[Designation], [e].[EmpCode], [e].[FullName], [e].[OfficeLocations]
+FROM [Employees] AS [e]
+WHERE [e].[EmployeeId] = @__get_Item_0" (0723d8ff)
+2019-06-09T15:36:08.7158286+05:30 0HLNCO81SQK5E:00000006 [INF] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+DELETE FROM [Employees]
+WHERE [EmployeeId] = @p0;
+SELECT @@ROWCOUNT;" (0723d8ff)
+2019-06-09T15:36:08.7255984+05:30 0HLNCO81SQK5E:00000006 [INF] Executed action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Delete (Asp.netMVCCoreWithEFCore)", returned result "Microsoft.AspNetCore.Mvc.RedirectToActionResult" in 55.631ms. (50a9e262)
+2019-06-09T15:36:08.7324126+05:30 0HLNCO81SQK5E:00000006 [INF] Executing RedirectResult, redirecting to "/". (d98d540e)
+2019-06-09T15:36:08.7398908+05:30 0HLNCO81SQK5E:00000006 [INF] Executed action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Delete (Asp.netMVCCoreWithEFCore)" in 79.0337ms (afa2e885)
+2019-06-09T15:36:08.7469959+05:30 0HLNCO81SQK5E:00000006 [INF] Request finished in 102.8569ms 302  (791a596a)
+2019-06-09T15:36:08.7602282+05:30 0HLNCO81SQK5F:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:61543/   (ca22a1cb)
+2019-06-09T15:36:08.7685072+05:30 0HLNCO81SQK5F:00000007 [INF] Route matched with "{action = \"Index\", controller = \"Employee\"}". Executing action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" (a44c0341)
+2019-06-09T15:36:08.7761216+05:30 0HLNCO81SQK5F:00000007 [INF] Executing action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" - Validation state: Valid (dad538d7)
+2019-06-09T15:36:08.7835179+05:30 0HLNCO81SQK5F:00000007 [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"EmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-06-09T15:36:08.7960310+05:30 0HLNCO81SQK5F:00000007 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmployeeId], [e].[Designation], [e].[EmpCode], [e].[FullName], [e].[OfficeLocations]
+FROM [Employees] AS [e]" (0723d8ff)
+2019-06-09T15:36:08.8063703+05:30 0HLNCO81SQK5F:00000007 [INF] Executed action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 21.8724ms. (50a9e262)
+2019-06-09T15:36:08.8129503+05:30 0HLNCO81SQK5F:00000007 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-06-09T15:36:08.8641906+05:30 0HLNCO81SQK5F:00000007 [INF] Executed ViewResult - view "Index" executed in 45.1724ms. (f66409e9)
+2019-06-09T15:36:08.8691534+05:30 0HLNCO81SQK5F:00000007 [INF] Executed action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" in 95.4369ms (afa2e885)
+2019-06-09T15:36:08.8754110+05:30 0HLNCO81SQK5F:00000007 [INF] Request finished in 115.8857ms 200 text/html; charset=utf-8 (791a596a)
+2019-06-09T15:36:08.9775002+05:30 0HLNCO81SQK5E:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:61543/dist/css/skins/blue.css   (ca22a1cb)
+2019-06-09T15:36:08.9863703+05:30 0HLNCO81SQK5E:00000007 [INF] Request finished in 5.7806ms 404  (791a596a)
+2019-06-09T15:36:09.6921764+05:30 0HLNCO81SQK5F:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:61543/Employee/Details/7   (ca22a1cb)
+2019-06-09T15:36:09.7015950+05:30 0HLNCO81SQK5F:00000008 [INF] Route matched with "{action = \"Details\", controller = \"Employee\"}". Executing action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Details (Asp.netMVCCoreWithEFCore)" (a44c0341)
+2019-06-09T15:36:09.7054787+05:30 0HLNCO81SQK5F:00000008 [INF] Executing action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Details (Asp.netMVCCoreWithEFCore)" with arguments (["7"]) - Validation state: Valid (4e3479ed)
+2019-06-09T15:36:09.7130449+05:30 0HLNCO81SQK5F:00000008 [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"EmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-06-09T15:36:09.7432130+05:30 0HLNCO81SQK5F:00000008 [INF] Executed DbCommand ("2"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [m].[EmployeeId], [m].[Designation], [m].[EmpCode], [m].[FullName], [m].[OfficeLocations]
+FROM [Employees] AS [m]
+WHERE [m].[EmployeeId] = @__id_0" (0723d8ff)
+2019-06-09T15:36:09.7473372+05:30 0HLNCO81SQK5F:00000008 [INF] Executed action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Details (Asp.netMVCCoreWithEFCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 38.3921ms. (50a9e262)
+2019-06-09T15:36:09.7552156+05:30 0HLNCO81SQK5F:00000008 [INF] Executing ViewResult, running view "Details". (c83d0e25)
+2019-06-09T15:36:09.7776306+05:30 0HLNCO81SQK5F:00000008 [INF] Executed ViewResult - view "Details" executed in 24.2542ms. (f66409e9)
+2019-06-09T15:36:09.7822615+05:30 0HLNCO81SQK5F:00000008 [INF] Executed action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Details (Asp.netMVCCoreWithEFCore)" in 76.3042ms (afa2e885)
+2019-06-09T15:36:09.7874731+05:30 0HLNCO81SQK5F:00000008 [INF] Request finished in 94.7047ms 200 text/html; charset=utf-8 (791a596a)
+2019-06-09T15:36:09.8633052+05:30 0HLNCO81SQK5E:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:61543/Employee/dist/css/skins/blue.css   (ca22a1cb)
+2019-06-09T15:36:09.8691364+05:30 0HLNCO81SQK5E:00000008 [INF] Request finished in 6.4219ms 404  (791a596a)
+2019-06-09T15:36:12.0821178+05:30 0HLNCO81SQK5F:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:61543/   (ca22a1cb)
+2019-06-09T15:36:12.0858825+05:30 0HLNCO81SQK5F:00000009 [INF] Route matched with "{action = \"Index\", controller = \"Employee\"}". Executing action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" (a44c0341)
+2019-06-09T15:36:12.0896113+05:30 0HLNCO81SQK5F:00000009 [INF] Executing action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" - Validation state: Valid (dad538d7)
+2019-06-09T15:36:12.0932078+05:30 0HLNCO81SQK5F:00000009 [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"EmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-06-09T15:36:12.0987031+05:30 0HLNCO81SQK5F:00000009 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmployeeId], [e].[Designation], [e].[EmpCode], [e].[FullName], [e].[OfficeLocations]
+FROM [Employees] AS [e]" (0723d8ff)
+2019-06-09T15:36:12.1028179+05:30 0HLNCO81SQK5F:00000009 [INF] Executed action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 9.9772ms. (50a9e262)
+2019-06-09T15:36:12.1069446+05:30 0HLNCO81SQK5F:00000009 [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-06-09T15:36:12.1296843+05:30 0HLNCO81SQK5F:00000009 [INF] Executed ViewResult - view "Index" executed in 18.0602ms. (f66409e9)
+2019-06-09T15:36:12.1335719+05:30 0HLNCO81SQK5F:00000009 [INF] Executed action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" in 43.8958ms (afa2e885)
+2019-06-09T15:36:12.1458307+05:30 0HLNCO81SQK5F:00000009 [INF] Request finished in 54.8743ms 200 text/html; charset=utf-8 (791a596a)
+2019-06-09T15:36:12.2003794+05:30 0HLNCO81SQK5E:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:61543/dist/css/skins/blue.css   (ca22a1cb)
+2019-06-09T15:36:12.2049320+05:30 0HLNCO81SQK5E:00000009 [INF] Request finished in 4.3388ms 404  (791a596a)
+2019-06-09T15:36:14.2919003+05:30 0HLNCO81SQK5F:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:61543/   (ca22a1cb)
+2019-06-09T15:36:14.2953742+05:30 0HLNCO81SQK5F:0000000A [INF] Route matched with "{action = \"Index\", controller = \"Employee\"}". Executing action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" (a44c0341)
+2019-06-09T15:36:14.2984684+05:30 0HLNCO81SQK5F:0000000A [INF] Executing action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" - Validation state: Valid (dad538d7)
+2019-06-09T15:36:14.3014575+05:30 0HLNCO81SQK5F:0000000A [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"EmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-06-09T15:36:14.3073508+05:30 0HLNCO81SQK5F:0000000A [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmployeeId], [e].[Designation], [e].[EmpCode], [e].[FullName], [e].[OfficeLocations]
+FROM [Employees] AS [e]" (0723d8ff)
+2019-06-09T15:36:14.3113245+05:30 0HLNCO81SQK5F:0000000A [INF] Executed action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 9.5841ms. (50a9e262)
+2019-06-09T15:36:14.3150913+05:30 0HLNCO81SQK5F:0000000A [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-06-09T15:36:14.3393597+05:30 0HLNCO81SQK5F:0000000A [INF] Executed ViewResult - view "Index" executed in 19.6905ms. (f66409e9)
+2019-06-09T15:36:14.3442573+05:30 0HLNCO81SQK5F:0000000A [INF] Executed action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" in 44.057ms (afa2e885)
+2019-06-09T15:36:14.3502272+05:30 0HLNCO81SQK5F:0000000A [INF] Request finished in 59.5292ms 200 text/html; charset=utf-8 (791a596a)
+2019-06-09T15:36:14.4064192+05:30 0HLNCO81SQK5E:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:61543/dist/css/skins/blue.css   (ca22a1cb)
+2019-06-09T15:36:14.4114302+05:30 0HLNCO81SQK5E:0000000A [INF] Request finished in 3.0989ms 404  (791a596a)
+2019-06-09T15:36:16.2423719+05:30 0HLNCO81SQK5F:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:61543/   (ca22a1cb)
+2019-06-09T15:36:16.2464053+05:30 0HLNCO81SQK5F:0000000B [INF] Route matched with "{action = \"Index\", controller = \"Employee\"}". Executing action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" (a44c0341)
+2019-06-09T15:36:16.2497801+05:30 0HLNCO81SQK5F:0000000B [INF] Executing action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" - Validation state: Valid (dad538d7)
+2019-06-09T15:36:16.2531754+05:30 0HLNCO81SQK5F:0000000B [INF] Entity Framework Core "2.1.11-servicing-32099" initialized '"EmployeeContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2019-06-09T15:36:16.2591899+05:30 0HLNCO81SQK5F:0000000B [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [e].[EmployeeId], [e].[Designation], [e].[EmpCode], [e].[FullName], [e].[OfficeLocations]
+FROM [Employees] AS [e]" (0723d8ff)
+2019-06-09T15:36:16.2632135+05:30 0HLNCO81SQK5F:0000000B [INF] Executed action method "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 9.9219ms. (50a9e262)
+2019-06-09T15:36:16.2666609+05:30 0HLNCO81SQK5F:0000000B [INF] Executing ViewResult, running view "Index". (c83d0e25)
+2019-06-09T15:36:16.2882762+05:30 0HLNCO81SQK5F:0000000B [INF] Executed ViewResult - view "Index" executed in 18.3159ms. (f66409e9)
+2019-06-09T15:36:16.2927826+05:30 0HLNCO81SQK5F:0000000B [INF] Executed action "Asp.netMVCCoreWithEFCore.Controllers.EmployeeController.Index (Asp.netMVCCoreWithEFCore)" in 41.9779ms (afa2e885)
+2019-06-09T15:36:16.2978844+05:30 0HLNCO81SQK5F:0000000B [INF] Request finished in 54.6688ms 200 text/html; charset=utf-8 (791a596a)
+2019-06-09T15:36:16.3718495+05:30 0HLNCO81SQK5E:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:61543/dist/css/skins/blue.css   (ca22a1cb)
+2019-06-09T15:36:16.3751168+05:30 0HLNCO81SQK5E:0000000B [INF] Request finished in 3.3696ms 404  (791a596a)
