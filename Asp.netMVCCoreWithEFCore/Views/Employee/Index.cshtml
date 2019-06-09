@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Asp.netMVCCoreWithEFCore.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h4>Employee Register</h4>
+
+<link rel="stylesheet" href="~/css/Page.css" asp-append-version="true" />
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmpCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Designation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OfficeLocations)
+            </th>
+            <th>
+                <a asp-action="CreateorUpdate" class="btn btn-outline-sucess">
+                    <span class="spanstylenewEmp">
+                        <i class="fas fa-user-plus" title="Create new employee"></i>
+                    </span>Create new employee
+                </a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmpCode)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Designation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OfficeLocations)
+                </td>
+                <td>
+                    <a asp-action="CreateorUpdate" asp-route-id="@item.EmployeeId" class="float-left">
+                        <span class="spanpadding">
+                            <i class="fas fa-user-edit fa-lg" title="Edit"></i>
+                        </span>  Edit
+                    </a> |
+                    <a asp-action="Details" asp-route-id="@item.EmployeeId" class="ml-2">
+                        <span class="spanpadding">
+                            <i class="fas fa-user-tie fa-lg" title="Details"></i>
+                        </span>Details
+                    </a> |
+                    <a asp-action="Delete" asp-route-id="@item.EmployeeId" class="text-danger ml-2" onclick="return confirm('Are you sure to delete this record')">
+                        <span class="spanpadding">
+                            <i class="fas fa-user-times fa-lg" title="Delete"></i>
+                        </span> Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

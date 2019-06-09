@@ -1,0 +1,50 @@
+﻿@model Asp.netMVCCoreWithEFCore.Models.Employee
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<h4>Employee Form</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="CreateorUpdate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="EmployeeId" />
+            <div class="form-group">
+                <label asp-for="FullName" class="control-label"></label>
+                <input asp-for="FullName" class="form-control" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label asp-for="EmpCode" class="control-label"></label>
+                    <input asp-for="EmpCode" class="form-control" />
+                    <span asp-validation-for="EmpCode" class="text-danger"></span>
+                </div>
+                <div class="form-group col-md-6">
+                    <label asp-for="Designation" class="control-label"></label>
+                    <input asp-for="Designation" class="form-control" />
+                    <span asp-validation-for="Designation" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="OfficeLocations" class="control-label"></label>
+                <input asp-for="OfficeLocations" class="form-control" />
+                <span asp-validation-for="OfficeLocations" class="text-danger"></span>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <input type="submit" value="Submit" class="btn btn-primary btn-block" />
+                </div>
+                <div class="form-group col-md-6">
+                    <a role="button" asp-action="Index" class="btn btn-light btn-block"><i class="fa fa-table" title="Back to List"> Back to List </i></a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
